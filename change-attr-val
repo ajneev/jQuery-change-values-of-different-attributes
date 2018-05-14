@@ -10,6 +10,11 @@ $(document).ready(function(){
     $("#btn2").click(function(){
         $("#test2").html("<b>Hello world!</b>");
     });
+    $("#w3s").attr({
+        "href" : "https://www.w3schools.com/jquery/",
+        "title" : "W3Schools jQuery Tutorial"
+    });
+
     $("#btn3").click(function(){
         $("#test3").val("Dolly Duck");
     });
